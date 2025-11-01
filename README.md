@@ -60,6 +60,3 @@ Made with ❤️ by Lord Games
 Support: lordgames.contact@gmail.com
 
 ‼️ *Warning: This is a preview only. Full source code, documentation, and editor tools are available only to purchasers via the Unity Asset Store.*
-
-### 🖼️ Demo Scene Preview
-![Demo Scene Screenshot](FULLHD.png)
