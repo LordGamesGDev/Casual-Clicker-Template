@@ -2,7 +2,7 @@
 **Full Idle/Clicker Framework for Unity**
 
 > **Full documentation (PDF + HTML) is included inside the asset**  
-> Buy now on Unity Asset Store → [**$20.99 Launch Sale!**](https://assetstore.unity.com/packages/tools/game-toolkits/casual-clicker-template-XXXXXX)
+> Buy now on Unity Asset Store → [**$24.5 Launch Sale!**](https://assetstore.unity.com/packages/tools/game-toolkits/casual-clicker-template-XXXXXX)
 
 ---
 ## ☄️ Quick Start (2 Minutes)
