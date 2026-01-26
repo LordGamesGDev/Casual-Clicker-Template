@@ -2,7 +2,7 @@
 **Full Idle/Clicker Framework for Unity**
 
 > **Full documentation (PDF + HTML) is included inside the asset**  
-> Buy now on Unity Asset Store → [**$24.5 Launch Sale!**](https://assetstore.unity.com/preview/338962/1137608)
+> Buy now on Unity Asset Store → (https://assetstore.unity.com/preview/338962/1137608)
 
 ---
 ## ☄️ Quick Start (2 Minutes)
