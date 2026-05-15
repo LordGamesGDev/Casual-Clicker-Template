@@ -1,32 +1,39 @@
-# 🎮 Casual Clicker Template — **Quick Preview**  
-**Full Idle/Clicker Framework for Unity**
+# Casual Clicker Template - Quick Preview
 
-> **Full documentation (PDF + HTML) is included inside the asset**  
-> Buy now on Unity Asset Store → (https://assetstore.unity.com/preview/338962/1137608)
+**Full idle/clicker framework for Unity**
+
+> Full documentation is included inside the asset as a PDF.  
+> Buy now on Unity Asset Store: <https://assetstore.unity.com/preview/338962/1137608>
 
 ---
-## ☄️ Quick Start (2 Minutes)
 
-1. Add `GameBootstrapper.cs` + `EventSystemBootstrap.cs` to your scene  
-2. Assign prefabs in Inspector:  
-   → AudioManager, EnemyManager, GameCanvas  
-3. Press **Play** → Game runs!
+## Quick Start
 
-## 🪄 Core Features
+1. Add `GameBootstrapper.cs` and `EventSystemBootstrap.cs` to your scene.
+2. Assign prefabs in the Inspector:
+   - `AudioManager`
+   - `EnemyManager`
+   - `CanvasGame`
+3. Make sure the scene has a camera tagged `MainCamera`.
+4. Press **Play**.
+
+## Core Features
+
 | Feature | Ready |
-|---------|--------|
-| ✅ Click & Passive Income System | Yes |
-| ✅ Player Level + EXP Progression | Yes |
-| ✅ Upgrade Panel (Dynamic, Editable) | Yes |
-| ✅ Enemy + Boss Pool System | Yes |
-| ✅ Save/Load (PlayerPrefs + JSON) | Yes |
-| ✅ Audio Manager (Music + SFX) | Yes |
-| ✅ DOTween Animations | Yes |
-| ✅ TextMeshPro UI | Yes |
-| ✅ Custom Editor Tools | Yes |
-| ✅ Input System + Legacy Support | Yes |
+| --- | --- |
+| Click and passive income system | Yes |
+| Player level and EXP progression | Yes |
+| Upgrade panel with editable upgrade entries | Yes |
+| Enemy and boss pool system | Yes |
+| Save/load with PlayerPrefs and JSON | Yes |
+| Audio manager for music and SFX | Yes |
+| Coroutine-based animations | Yes |
+| TextMeshPro UI | Yes |
+| Custom editor tools | Yes |
+| New Input System and legacy input support | Yes |
 
-## ☣️ API Snippet
+## API Snippet
+
 ```csharp
 // Add gold
 ClickManager.Instance.AddGold(100);
@@ -40,23 +47,26 @@ AudioManager.Instance.PlaySFX("upgrade");
 // Spawn next enemy
 EnemyManager.Instance.SpawnNextEnemy();
 ```
-## 🎨 Editor Tools (In-Inspector Magic)
 
-* **UpgradePanelManagerEditor** → Add/Remove/Reorder upgrades visually
-* **EnemyManagerEditor** → Edit HP, rewards, sprites — no code needed
-* **Auto-sync UI** → Change cost/multiplier → UI updates instantly
+## Editor Tools
 
-## 🎸 Tech Stack
-* Unity 2021–2025 / Unity 6
-* URP & Built-in Render Pipeline
-* SOLID Architecture
-* Addressables Ready
-* DOTween + TextMeshPro
-* C# 10+ / .NET Standard
+- `Project Setup` - checks TextMeshPro package setup and TMP Essentials.
+- `UpgradePanelManagerEditor` - add, remove, select, reorder and update upgrades.
+- `EnemyManagerEditor` - edit enemy pools, boss pools, HP, rewards and sprites.
+- `UpgradeEditor` - update UI text for individual upgrades.
+
+## Tech Stack
+
+- Unity 2022.3 LTS or newer
+- Built-in Render Pipeline and URP compatible assets
+- C# gameplay architecture
+- TextMeshPro
+- Unity built-in coroutine-based animation logic
+- No required third-party runtime dependencies
 
 ---
 
-Made with ❤️ by Lord Games  
+Made by Lord Games  
 Support: lordgames.contact@gmail.com
 
-‼️ *Warning: This is a preview only. Full source code, documentation, and editor tools are available only to purchasers via the Unity Asset Store.*
+**Preview notice:** This is a public preview. Full source code, documentation and editor tools are available to purchasers through the Unity Asset Store.
